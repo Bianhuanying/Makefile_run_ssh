@@ -1,0 +1,8 @@
+#! /bin/sh
+
+export LD_LIBRARY_PATH="/opt/local/lib"
+
+export AFEPACK_PATH="/opt/src/AFEPack"
+export AFEPACK_TEMPLATE_PATH="$AFEPACK_PATH/template/triangle"
+
+exec ./main $*
